@@ -25,16 +25,20 @@ created.
 
 .config/grannyvisor:
  
+```perl
 # KEEP decides how many of each different file type to keep. Limiting
 # the number of kept files keeps the disk footprint to reasonable
 # levels
 %config=(
 KEEP=>{jpg => 12, swf => 1}
 );
+```
 
 .config/motion:
 
+```
 on_motion_detected=perl scripts/on_motion_detected.pl
 target_dir=motion
 movie_filename=%Y%m%d%H%M%S
 jpeg_filename=%Y%m%d%H%M%S
+```
