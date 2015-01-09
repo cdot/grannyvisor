@@ -1,10 +1,7 @@
 # grannyvisor
 Motion sensor for monitoring the elderly
 
-apt-get dependencies:
-
-libwww-perl (for LWP)
-motion
+Requires motion to be installed (e.g. apt-get install motion)
 
 Assumes that the git repository is cloned to the home directory of a
 user called grannyvisor.
