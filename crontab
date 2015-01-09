@@ -20,6 +20,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-0 * * * * perl scripts/check_ip.pl 2>&1 > logs/check_ip.log
 5 * * * * scripts/restart_motion.sh 2>&1 > logs/restart_motion.log
 
