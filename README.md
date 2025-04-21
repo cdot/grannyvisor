@@ -1,4 +1,6 @@
 # grannyvisor
+NO LONGER MAINTAINED - technology has moved on!
+
 Motion sensor for monitoring the elderly
 
 Requires motion to be installed (e.g. apt-get install motion)
